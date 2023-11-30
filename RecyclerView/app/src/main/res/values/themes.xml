@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<!--    <style name="Base.Theme.RecyclerView" parent="Theme.Material3.DayNight.NoActionBar">-->
+    <style name="Base.Theme.RecyclerView" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/my_light_primary</item>
+         <item name="statusBarBackground">@color/status_bar</item>
+    </style>
+
+    <style name="Theme.RecyclerView" parent="Base.Theme.RecyclerView" />
+</resources>
